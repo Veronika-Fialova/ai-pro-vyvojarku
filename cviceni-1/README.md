@@ -10,11 +10,7 @@ Pro ověření spusťte skript z příkazové řádky (terminálu) příkazem:
 node cviceni-1/index.js
 ```
 
-Pokud terminál otevřete přímo ze složky `cviceni-1`, spouštěcí příkaz je jen:
-
-```shell
-node index.js
-```
+Pokud terminál otevřete přímo ze složky `cviceni-1`, spouštěcí příkaz je jen: `node index.js`.
 
 ## Očekávaný výstup
 
