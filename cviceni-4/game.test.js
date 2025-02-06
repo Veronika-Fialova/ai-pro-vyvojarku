@@ -1,5 +1,11 @@
-// Do not test any dom or canvas functionality. Instead, test the game module functionality.
+import {
+  createBird,
+  createPipe,
+  updateBird,
+  checkCollision,
+  createGameState,
+} from './gameLogic'
 
-test('game module functionality', () => {
+test('dummy test', () => {
   expect(true).toBe(true)
 })
