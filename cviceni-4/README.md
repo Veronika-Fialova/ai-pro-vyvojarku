@@ -11,7 +11,29 @@ Toto je jednoduchá hra Flappy Bird implementovaná pomocí HTML, CSS a JavaScri
 
 ## Jak spustit hru
 
-1. Otevřete `index.html` ve webovém prohlížeči.
-2. Použijte mezerník nebo kliknutí myši k ovládání a užijte si hru!
+Pro zobrazení aplikace v prohlížeči spusťte lokální server z příkazové řádky pomocí příkazu
 
-Neváhejte hru upravit a vylepšit podle svých představ!
+```shell
+npx serve cviceni-4
+```
+
+Pokud máte terminál otevřen ve složce `cviceni-4`, spouštěcí příkaz je jen `npx serve`.
+
+Po spuštění příkazu `npx serve` otevřete v prohlížeči adres http://localhost:3000 (`npx serve` ji vypisuje po spuštění v terminálu).
+
+Příkaz `npx serve` ukončíte klávesovou zkratkou <kbd>Ctrl+C</kbd>.
+
+## Jak spustit testy (npx jest)
+
+1. Otevřete terminál v hlavní složce projektu.
+2. Ujistěte se, že jste alespoň jednou spustili příkaz
+
+```shell
+npm install
+```
+
+3. Spusťte následující příkaz:
+
+```shell
+npx jest
+```
